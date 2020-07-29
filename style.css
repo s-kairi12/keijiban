@@ -1,0 +1,112 @@
+.header-list {
+  background-color: black;
+  height: 40px;
+  width: 100%;
+  color: white;
+}
+
+header li {
+  float: left;
+  list-style: none;
+  line-height: 40px;
+  padding: 0 40px;
+  margin-bottom: 0px;
+}
+
+main {
+  clear: left;
+}
+
+.main-left {
+  display: inline-block;
+  float: left;
+  width: 75%;
+}
+
+main h1 {
+  border-left: 4px solid black;
+  border-bottom: 3px solid gray;
+  padding-left: 5px;
+}
+
+form {
+  background-color: #fbfbfb;
+  border: 3px solid #ebebeb;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+form h2 {
+  border-left: 4px solid red;
+  font-size: 22px;
+  padding-left: 3px
+}
+
+.handlename, .title, .comments {
+  margin-bottom: 10px;
+}
+
+.handlename input, .title input, form textarea {
+  padding: 5px;
+  border: 1px solid #dfdfdf;
+}
+
+.handlename input, .title input {
+  width: 30%;
+}
+
+.comments textarea {
+  width: 50%;
+}
+
+.submit {
+  background-color: dimgray;
+  color: white;
+  border-radius: 4px;
+  padding: 3px 5px;
+  box-shadow: 0px 2px black;
+  border: 1px solid dimgray;
+}
+
+.keijiban  {
+  background-color: #fbfbfb;
+  border: 3px solid #ebebeb;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.keijiban h2 {
+  border-bottom: 2px #ebebeb solid;
+  font-size: 22p;
+  margin-top: 0px;
+}
+
+.main-right {
+  display: inline-block;
+  float: left;
+  width: 22%;
+  padding-left: 2%;
+  margin-top: 30px;
+}
+
+.main-right h3 {
+  border-bottom: 2px solid darkgray;
+  margin-bottom: 5px;
+}
+
+.main-right li {
+  list-style: none;
+  margin-left: -1em;
+}
+
+footer {
+  clear: left;
+  height: 40px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  line-height: 40px;
+}
